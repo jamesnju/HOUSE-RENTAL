@@ -1,0 +1,15 @@
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 30vh;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(8, 8, 46);
+    color: whitesmoke;
+    position: relative;
+    
+}
+.left{
+   
+}
