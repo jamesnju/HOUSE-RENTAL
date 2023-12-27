@@ -8,21 +8,22 @@ const Footer = () => {
   return (
     <footer>
         <div className="left">
-            <h2>social media</h2>
+            <h4>social media</h4>
 
             <Github/>
             <Instagram/>
             <House/>
         </div>
         <div className="center">
-            <h2>usefull links</h2>
+            <h4>usefull links</h4>
             <p>Home</p>
             <p>About</p>
         </div>
         <div className="right">
-            <h2>Location</h2>
+            <h4>Location</h4>
             <p>Nairobi</p>
         </div>
+        <p className='copy'>All Rights Reserved &copy;2024</p>
     </footer>
   )
 }

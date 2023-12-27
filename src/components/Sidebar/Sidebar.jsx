@@ -12,24 +12,20 @@ const Sidebar = () => {
         <div className="cards">
         <Carousel data-bs-theme="dark">
           {data.map((sideItems)=>(
-
-          
-      <Carousel.Item key={data.index} className='mt-10rem'>
-
-        <img
-          className="d-block w-100"
-          src={sideItems.image}
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h5>{sideItems.title}</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      ))}
-    </Carousel>
-        </div>
-
+          <Carousel.Item key={data.index} className='mt-10rem'>
+            <img
+              className="d-block w-100"
+              src={sideItems.image}
+              alt="First slide"
+            />
+            <Carousel.Caption>
+              <h5>{sideItems.title}</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        ))}
+        </Carousel>
+      </div>
     </div>
   )
 }

@@ -8,8 +8,18 @@ footer{
     background-color: rgb(8, 8, 46);
     color: whitesmoke;
     position: relative;
+    z-index: -4;
+    border-radius: 15px;
     
 }
 .left{
    
+}
+.copy{
+    border-top: 2px solid ghostwhite;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: brown;
+    text-align: center;
 }
